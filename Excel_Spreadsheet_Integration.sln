@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excel_Spreadsheet_Integration", "Excel_Spreadsheet_Integration.csproj", "{37FDB588-1A71-45EC-9DE2-A1295A34B9BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37FDB588-1A71-45EC-9DE2-A1295A34B9BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37FDB588-1A71-45EC-9DE2-A1295A34B9BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37FDB588-1A71-45EC-9DE2-A1295A34B9BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37FDB588-1A71-45EC-9DE2-A1295A34B9BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B1A9D7D-1D7D-4911-AE27-75FF88842332}
+	EndGlobalSection
+EndGlobal
