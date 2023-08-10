@@ -32,7 +32,7 @@ namespace Excel_Spreadsheet_Integration
         {
             Graphics graphics = e.Graphics;
 
-            Pen pen = new Pen(Color.Black);
+            Pen pen = new Pen(Color.Gray);
 
             // Top side
             graphics.DrawLine(pen, 0, 0, Width, 0);
