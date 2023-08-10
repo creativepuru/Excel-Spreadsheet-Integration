@@ -1,6 +1,6 @@
 ﻿namespace Excel_Spreadsheet_Integration
 {
-    partial class formLogin
+    partial class FormLogin
     {
         /// <summary>
         /// Required designer variable.
@@ -338,7 +338,7 @@
             this.label4.TabIndex = 16;
             this.label4.Text = "SELECT ROLE";
             // 
-            // formLogin
+            // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -357,7 +357,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "formLogin";
+            this.Name = "FormLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);
