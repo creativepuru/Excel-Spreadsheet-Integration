@@ -144,7 +144,7 @@ namespace Excel_Spreadsheet_Integration
                 Console.WriteLine("Credential file saved to: " + credPath);
             }
 
-            // Create Google Sheets service using the authorized credential
+            // Creating Google Sheets service using the authorized credential
             return new SheetsService(new Google.Apis.Services.BaseClientService.Initializer()
             {
                 HttpClientInitializer = credential,
