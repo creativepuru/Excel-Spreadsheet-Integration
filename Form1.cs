@@ -114,20 +114,6 @@ namespace Excel_Spreadsheet_Integration
 
         }
 
-        private void buttonForm_Click(object sender, EventArgs e)
-        {
-            // Create an instance of Form2
-            Form2 form2 = new Form2();
-
-            // Hide Form1
-            this.Hide();
-
-            // Show Form2
-            form2.ShowDialog();
-
-            // After Form2 is closed, show Form1 again
-            this.Show();
-        }
     }
 
     public class GoogleSheetsAuthentication

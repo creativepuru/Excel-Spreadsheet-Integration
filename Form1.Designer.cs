@@ -38,7 +38,6 @@
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.buttonForm = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelWrite
@@ -233,23 +232,11 @@
             this.textBox1.Text = "Waiting....";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // buttonForm
-            // 
-            this.buttonForm.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonForm.Location = new System.Drawing.Point(603, 183);
-            this.buttonForm.Name = "buttonForm";
-            this.buttonForm.Size = new System.Drawing.Size(75, 38);
-            this.buttonForm.TabIndex = 21;
-            this.buttonForm.Text = "Form 2";
-            this.buttonForm.UseVisualStyleBackColor = true;
-            this.buttonForm.Click += new System.EventHandler(this.buttonForm_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(720, 383);
-            this.Controls.Add(this.buttonForm);
+            this.ClientSize = new System.Drawing.Size(720, 170);
             this.Controls.Add(this.labelWrite);
             this.Controls.Add(this.labelRead);
             this.Controls.Add(this.buttonWrite);
@@ -281,7 +268,6 @@
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button buttonForm;
     }
 }
 
