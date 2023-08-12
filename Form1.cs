@@ -24,7 +24,6 @@ namespace Excel_Spreadsheet_Integration
         public Form1()
         {
             InitializeComponent();
-
             sheetsService = GoogleSheetsAuthentication.GetService();
         }
 
@@ -113,7 +112,6 @@ namespace Excel_Spreadsheet_Integration
         {
 
         }
-
     }
 
     public class GoogleSheetsAuthentication
